@@ -1,0 +1,231 @@
+{
+  "app_name": "Neumafit PACER",
+  "common": {
+    "continue": "Continue",
+    "price": "₩{price}",
+    "to_previous" : "Previous Step",
+    "to_next" : "Next Step"
+  },
+  "nav_text": {
+    "nav_1": "WHY PACER",
+    "nav_2": "THE METRICS",
+    "nav_3": "FIT ANALYTICS",
+    "nav_4": "SHOP NOW",
+    "country_1": "South Korea",
+    "international": "International"
+  },
+  "footer": {
+    "info" : "Neumafit\nCEO: Jinmo Kim\nAddress: 13th Floor, Front One, 122 Mapo-daero, Mapo-gu, Seoul, South Korea (Gongdeok-dong)\nBusiness Registration Number: 149-81-02184\nE-commerce Registration Number: 2022-Seoul-Gwanak-2176\nEmail: support@neumafit.com",
+    "support": {
+      "title": "Support",
+      "faq": "FAQ",
+      "inquiry": "Inquiry"
+    },
+    "company": {
+      "title": "Company",
+      "contact_us": "Contact us",
+      "blog": "Blog"
+    },
+    "policy": {
+      "title": "Policy",
+      "privacy": "Privacy policy",
+      "shipping": "Shipping policy",
+      "refund": "Refund policy",
+      "terms_of_service": "Terms of service"
+    }
+  },
+  "home": {
+    "main_title": "PACER",
+    "main_subtitle": "Elevate your running with the ultimate in\nscientific precision and effectiveness.",
+    "title_1": "Get your personal CPET anytime, anywhere",
+    "content_1": "Put on PACER and follow the voice-guided instructions by our app for about 30 minutes. That’s all it takes to get pro-level CPET results delivered straight to your app. No bulky equipment, no tedious calibration, and no hassle.\n\nPACER brings expert-grade aerobic fitness testing to you—anytime, anywhere, and at 1/100th of the cost. Experience the future of CPET with unparalleled convenience and accuracy.",
+    "title_2": "Measure what matters,\nRun smarter",
+    "content_2": "Most running devices lack precision and fail to provide the essential metrics runners truly need. PACER changes the game by measuring your breathing to deliver all the critical data with unmatched accuracy. With PACER, you get the insights that matter, empowering you to train smarter and perform at your best.",
+    "button_text_2": "WHAT PACER MEASURES",
+    "title_3": "PACER doesn’t just measure,\nIt guides",
+    "content_3": "Beyond delivering precise performance metrics, PACER provides tailored recommendations like marathon pacing strategies and personalized training protocols. Its easy-to-use design makes advanced insights accessible to everyone, turning complex data into actionable steps for smarter, more effective training.",
+    "button_text_3": "HOW PACER HELPS",
+    "asset_3": "withUI3.png",
+    "title_4_desktop": "Ergonomic design meets\nAdvanced technology",
+    "title_4_mobile": "Ergonomic design meets Advanced technology",
+    "content_4": "PACER combines ergonomic design with advanced technology. Made from durable, body-safe materials, it fits comfortably and is easy to clean with waterproofing for any weather. Featuring cutting-edge sensors, it ensures unmatched accuracy and reliability.",
+    "button_text_4": "ABOUT PACER",
+    "title_5": "What you get with PACER",
+    "subtitle_5_1": "Top-class wearable tech",
+    "content_5_1": "PACER sets the standard for wearable technology. Combining precision engineering, advanced sensors, and ergonomic design, it delivers unmatched accuracy and comfort. Built with durability and versatility in mind, it’s the ultimate tool for runners aiming to elevate their performance.",
+    "subtitle_5_2": "Personalized App",
+    "content_5_2": "The PACER app is your personal training companion. It syncs seamlessly with the device to provide tailored insights, actionable recommendations, and progress tracking. From personalized workout plans to marathon pacing strategies, the app transforms your data into results, helping you train smarter and achieve your goals.",
+    "subtitle_5_3": "Unparalleled technology",
+    "content_5_3": "PACER uses advanced AI and precision sensors to deliver personalized insights and training. With cutting-edge technology, it adapts to your unique data, ensuring unmatched accuracy and performance."
+  },
+  "page_1": {
+    "main_title": "Why PACER",
+    "title_1": "No costly lab tests,\nJust PACER",
+    "content_1": "Say goodbye to expensive lab tests and bulky equipment. With PACER, you get professional-grade results anytime, anywhere, at a fraction of the cost. For less than 1% of traditional testing expenses, PACER provides repeatable, accurate insights whenever you need them—empowering you to train smarter for life.",
+    "title_2": "Data-driven running,\nSmarter results",
+    "content_2": "PACER provides runners with the most essential performance metrics and uses them to deliver personalized analysis and tailored recommendations. By combining advanced insights with actionable guidance, PACER enables runners to improve their skills in a more scientific and efficient way, maximizing progress with every step.",
+    "button_text_2": "WHAT PACER MEASURES",
+    "title_3": "Comfortable for all,\nPrecise for every test",
+    "content_3": "At PACER, we’ve designed with every runner in mind. Our compact, lightweight, and ergonomic design ensures a comfortable fit for anyone—regardless of gender or ethnicity—while maintaining exceptional accuracy. Crafted with lightweight materials, PACER is easy to wear, even during long runs. Achieving this balance between comfort, precision, and portability was no easy task, but we succeeded. PACER delivers data you can trust, with a fit that feels effortless for all.",
+    "title_4_desktop": "Waterproof design and\nEasy maintenance",
+    "title_4_mobile": "Waterproof design and Easy maintenance",
+    "content_4": "PACER is built to withstand any weather with its waterproof design, making it perfect for rainy days or intense workouts. Its detachable parts allow for easy cleaning—simply separate the main unit and silicone components to keep your device fresh and ready for your next run.",
+    "title_5_1": "Too many numbers?",
+    "title_5_2": "PACER simply tells you what to do",
+    "title_6_desktop": "Smart, personalized\nTraining guidance",
+    "title_6_mobile": "Smart, personalized Training guidance",
+    "content_6": "PACER helps you train smarter by guiding you to the most effective pace for six key workout types, like daily runs and intervals, while minimizing injury risks. With precise pace-based zones instead of heart-rate zones, PACER delivers targeted, science-backed insights for optimal performance and safety.",
+    "title_7_desktop": "Perfect pacing,\nFueling for marathons",
+    "title_7_mobile": "Perfect pacing, Fueling for marathons",
+    "content_7": "PACER helps you unlock your full potential by providing  pace recommendations for your 10K, half marathon, or full marathon. It doesn’t stop there—PACER also identifies the most effective intervals for consuming energy gels during your marathon, ensuring you stay fueled and perform at your peak from start to finish."
+  },
+  "page_2": {
+    "main_title": "What PACER Measures",
+    "title_1": "Unmatched accuracy through\nReal breath analysis",
+    "content_1": "PACER measures your actual breathing, providing performance metrics far more accurate than any other wearable device. It even delivers insights that other devices simply cannot, setting a new standard for precision and reliability in fitness tracking.",
+    "title_2": "Performance Metrics:",
+    "title_3": "VO₂max",
+    "content_3": "VO₂max (Maximum Oxygen Uptake) is the maximum amount of oxygen your body can utilize during intense exercise. It is widely regarded as the gold standard for measuring aerobic fitness and endurance capacity.\n\nA higher VO₂max indicates greater efficiency in delivering oxygen to your muscles, allowing you to sustain physical activity for longer and at higher intensities. It’s a critical metric for assessing overall cardiovascular and respiratory efficiency.",
+    "title_4": "Running Economy",
+    "content_4": "Running Economy refers to the amount of energy your body uses to maintain a certain running speed. It’s a measure of how efficiently you convert oxygen into movement during running.\n\nBetter running economy means you use less energy (and oxygen) to run at the same speed, allowing you to run farther or faster with the same effort. Factors influencing running economy include biomechanics, muscle efficiency, and physiological adaptations. It’s a crucial metric for optimizing performance, especially in long-distance running.",
+    "title_5": "Lactate Threshold",
+    "content_5": "Lactate Threshold (LT) is the intensity where lactate builds up faster than it can be cleared, marking the shift from aerobic to anaerobic effort.\n\nLTP (Lactate Threshold Pace) is the running pace at this threshold, crucial for optimizing endurance and pacing strategies during training and races. Training at your LTP helps improve performance and sustain higher intensities for longer.",
+    "title_6": "Respiratory Metrics:",
+    "content_6": "Imagine knowing exactly how efficiently your body delivers oxygen to your muscles and manages carbon dioxide during exercise. With PACER’s advanced tracking, you gain insights that go beyond the surface, helping you breathe better, train smarter, and push your limits.",
+    "title_7": "Biomechanical Metrics:",
+    "content_7": "Biomechanical Metrics provide detailed insights into your running form and efficiency, helping you refine your technique and reduce the risk of injury. These metrics analyze how your body moves, offering a deeper understanding of your performance mechanics.",
+    "title_8": "Energy Metrics:",
+    "content_8": "Energy Metrics reveal how your body fuels itself during exercise, providing actionable insights to optimize your training and performance. PACER’s advanced testing measures your energy dynamics and pinpoints the pace where fat burns most efficiently, helping you maximize results."
+  },
+  "page_3": {
+    "main_title": "Guidance beyond\nMetrics",
+    "title_1": "Train Smarter,\nNot Harder",
+    "title_2": "Are your workouts as effective as they could be?",
+    "content_2": "PACER makes sure they are. PACER analyzes your unique data based on your CPET results, and recommends personalized protocols for six essential workout types, including daily runs and intervals. Each recommendation is designed to help you train at the ideal pace, intensity, and duration—so you can achieve your goals efficiently, minimize injury risks, and improve your performance with every session.",
+    "title_3": "Get your perfect Marathon Pace and Fueling Plan",
+    "content_3": "Every marathoner has an ideal pace to achieve their best time, and PACER helps you find it. By analyzing your unique data, PACER determines the most effective speed for your run. It also guides you on the optimal timing and number of energy gels to maximize performance, ensuring you’re fueled and ready to reach your peak on race day.",
+    "title_4": "Discover your runner type to\nTrain smarter",
+    "content_4": "To improve, you need to understand your strengths and weaknesses. PACER analyzes your metrics and classifies you into one of three runner types. This classification helps you focus on the areas that matter most, guiding you toward the training that will maximize your potential. With PACER, self-awareness becomes your greatest tool for progress."
+  },
+  "shop": {
+    "success" : {
+      "title" : "Your Purchase is Complete!",
+      "subtitle": "Thank you for choosing PACER!\nYour order details and shipping updates will be sent to you shortly.",
+      "content" : "We hope you look forward to a new running experience with PACER!\nIf you have any questions, feel free to contact our support team at any time."
+    },
+    "promotion": "Limited Promotion 20% Off – The Best Price You’ll Ever See!",
+    "step_1": {
+      "title": "CHOOSE QUANTITY",
+      "purchase": "Purchase  {number}  PACER",
+      "product_name": "PACER",
+      "app_access": "Including access to the App",
+      "discount": "{percentage}% OFF",
+      "free_shipping": "FREE WORLDWIDE SHIPPING INCLUDED",
+      "item_1": "• neumafit PACER",
+      "item_2": "• Strap",
+      "item_3": "• Strap Buckle",
+      "item_4": "• USB-C Cable",
+      "item_5": "• Storage Bag",
+      "item_6": "• User Manual",
+      "quantity": "Quantity:",
+      "how_it_works": {
+        "title": "How It Works",
+        "step": "Step {step}",
+        "step_1": {
+          "title": "Receive your PACER",
+          "content": "You can receive your PACER within 5~7 working days after your purchase."
+        },
+        "step_2": {
+          "title": "Connect PACER to our app",
+          "content": "Search for \"Pacer for running\". Available on both Google playstore and Appstore."
+        },
+        "step_3": {
+          "title": "Get CPET wearing PACER",
+          "content": "Connected to our app, you can take pro-level CPET with real-time audio guides."
+        },
+        "step_4": {
+          "title": "Unlock data and insight",
+          "content": "Get key metrics essential for runners, and guidance that will help your workout and races."
+        }
+      },
+      "photos": "Photos",
+      "details": {
+        "title": "Detailed Product Specification",
+        "detail_1_title": "Model Name",
+        "detail_1_content": "neumafit PACER",
+        "detail_2_title": "Model Unit Size",
+        "detail_2_content": "4.4 x 4.2 x 3.7 in (11.4 x 10.7 x 9.6 cm)",
+        "detail_3_title": "Color",
+        "detail_3_content": "Dark Grey",
+        "detail_4_title": "Weight",
+        "detail_4_content": "4.09 oz (116.2 g)",
+        "detail_5_title": "Material",
+        "detail_5_content": "ABS plastic, PP plastic, woven nylon, silicone rubber, acryl",
+        "detail_6_title": "Connection",
+        "detail_6_content": "Bluetooth 5.2 BLE",
+        "detail_7_title": "Battery Capacity",
+        "detail_7_content": "3.7 V / 600 mAh",
+        "detail_8_title": "Battery Life",
+        "detail_8_content": "approx. 6 hours",
+        "detail_9_title": "Charger",
+        "detail_9_content": "USB-A to C type",
+        "detail_10_title": "Frequency Range",
+        "detail_10_content": "2402 - 2480 MHz",
+        "detail_11_title": "Recommended Bluetooth Range",
+        "detail_11_content": "Max 65.6 ft (Max 20m)",
+        "detail_12_title": "Operating Temperature",
+        "detail_12_content": "14℉ to 122℉ (-10℃ to 50℃)",
+        "detail_13_title": "Storage Temperature",
+        "detail_13_content": "-4℉ to 176℉ (-20℃ to 80℃)"
+      }
+    },
+    "step_2": {
+      "title": "ENTER INFO",
+      "verify_age" : "I am 14 years old or older.",
+      "email_verification": {
+        "title": "Contact Information",
+        "description": "Your purchase details will be sent to your email and phone number.\nPlease ensure the information is entered correctly, as incorrect details may make refunds or exchanges difficult.",
+        "email_label": "Email",
+        "email_hint": "example@example.com",
+        "email_error_empty": "Enter your email",
+        "email_error_invalid": "Enter a valid email address",
+        "send_code": "Send Code",
+        "code_sent": "Code Sent",
+        "verification_code_label": "Verification Code",
+        "verification_code_hint": "123456",
+        "verification_code_expired": "0:00",
+        "verification_code_verify": "Verify",
+        "verification_code_verified": "Complete",
+        "verification_code_error_incorrect": "Incorrect code"
+      },
+      "purchase_details": {
+        "title": "Purchase Details",
+        "phone_number_label": "Phone number",
+        "phone_number_hint": "01012345678",
+        "phone_number_error_empty": "Enter phone number",
+        "phone_number_error_invalid": "Invalid phone number",
+        "first_name_label": "First name",
+        "first_name_empty": "Enter first name",
+        "last_name_label": "Last name",
+        "last_name_empty": "Enter last name",
+        "address_label": "Address",
+        "address_empty": "Enter address",
+        "zip_code_label": "ZIP code",
+        "zip_code_empty": "Enter zip code",
+        "detailed_address_label": "Detailed address",
+        "detailed_address_empty": "Enter detailed address",
+        "proceed_to_payment": "Proceed to Payment",
+        "enter_purchase_detail": "Enter Purchase Detail"
+      },
+      "order_summary": {
+        "title": "Order Summary",
+        "product": "PACER x {number}",
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "estimated_taxes": "Estimated taxes",
+        "total": "Total",
+        "currency": "KRW"
+      }
+    }
+  }
+}

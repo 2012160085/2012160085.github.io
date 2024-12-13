@@ -1,12 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <base href="/">
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Web for neumafit">
+
+    <title>Neumafit PACER</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <script type="application/javascript" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js" defer></script>
+    <style>
+        /* 기본 스타일 */
+ body{
+  background:#000000;
+}
+
+#global {
+  width: 74px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 화면 정중앙 배치 */
+}
+
+.mask{
+  position:absolute;
+  border-radius:2px;
+  overflow:hidden;
+   perspective: 1000;
+  backface-visibility: hidden;
+}
+
+.plane{
+  background:#ffffff;
+  width:100%;
+  height:400%;
+  position:absolute;
+  transform : translate3d(0,0px,0);
+  /*transition: all 0.8s ease; */
+  z-index:100;
+  perspective: 1000;
+  backface-visibility: hidden;
+
+}
+
+.animation{
+  transition: all 0.3s ease;
+}
+
+
+
+#top .plane{
+  z-index:2000;
+  animation : trans1 1.3s ease-in infinite  0s backwards;
+}
+#middle .plane{
+  transform : translate3d(0px,0,0);
+  background : #bbbbbb;
+  animation : trans2 1.3s linear infinite  0.3s  backwards;
+
+}
+#bottom .plane{
+  z-index:2000;
+  animation : trans3 1.3s ease-out infinite  0.7s backwards;
+}
+
+
+
+#top{
+  width:24px;
+  height:53px;
+  right:10px;
+  bottom:10px;
+  transform: skew(-23deg, 0);
+  z-index:100;
+}
+
+#middle{
+  width:24px;
+  height:53px;
+  left:20px;
+  bottom:10px;
+  transform: skew(17deg)
+}
+#bottom{
+  width:24px;
+  height:53px;
+bottom:10px;
+  transform: skew(-23deg, 0)
+}
+
+p{
+  color:#fff;
+  position:absolute;
+  left: -3px;
+  top:45px;
+  font-family:Arial;
+  text-align:center;
+  font-size:10px;
+}
+
+@keyframes trans1{
+  from {
+        transform : translate3d(0,-212px,0)
+
+  }
+  to {
+   transform : translate3d(0,91px,0)
+  }
+}
+
+@keyframes trans2{
+  from {
+    transform : translate3d(0,90px,0)
+  }
+  to {
+    transform : translate3d(0,-252px,0)
+  }
+}
+
+@keyframes trans3{
+  from {     transform : translate3d(0,-212px,0)
+
+  }
+  to {
+    transform : translate3d(0,61px,0)
+  }
+}
+
+@keyframes animColor{
+  from {
+    background : red;
+  }
+  25%{
+    background : yellow;
+  }
+  50%{
+    background : green;
+  }
+  75%{
+    background : brown;
+  }
+  to {
+    background : blue;
+  }
+}
+    </style>
 </head>
 <body>
-    <h1>Hello, I'm [Your Name]!</h1>
-    <p>Welcome to my personal introduction page.</p>
+<!-- 스플래시 애니메이션 -->
+<section id="global">
+    <div id="top" class="mask">
+        <div class="plane"></div>
+    </div>
+    <div id="middle" class="mask">
+        <div class="plane"></div>
+    </div>
+    <div id="bottom" class="mask">
+        <div class="plane"></div>
+    </div>
+    <p><i>LOADING...</i></p>
+</section>
+
+<!-- Flutter 부트스트랩 -->
+<script src="flutter_bootstrap.js" async></script>
+
+<!-- 스플래시 제거 -->
+<script>
+    document.addEventListener('flutter-ready', () => {
+      document.getElementById('global').style.display = 'none'; // 스플래시 제거
+      console.log("Flutter is ready!");
+    });
+
+    setTimeout(() => {
+      document.getElementById('global').style.display = 'none'; // 5초 후 강제 제거
+    }, 5000);
+</script>
+
+<!-- 다음 우편번호 API -->
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+    function openDaumPostcode() {
+      new daum.Postcode({
+        oncomplete: function (data) {
+          window.postMessage(JSON.stringify(data));
+        },
+      }).open();
+    }
+</script>
 </body>
 </html>
