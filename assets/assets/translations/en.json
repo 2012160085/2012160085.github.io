@@ -3,8 +3,41 @@
   "common": {
     "continue": "Continue",
     "price": "₩{price}",
-    "to_previous" : "Previous Step",
-    "to_next" : "Next Step"
+    "to_previous": "Previous Step",
+    "to_next": "Next Step"
+  },
+  "contact_us": {
+    "title": "Contact Us",
+    "subtitle": "Have questions or need assistance?\nFeel free to reach out anytime.",
+    "email": {
+      "title": "Email:",
+      "content": "help@neumafit.com"
+    },
+    "phone": {
+      "title": "Phone number:",
+      "content": "+82 1522-5985"
+    }
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "subtitle": "자주 묻는 질문과 그에 대한 답변을 확인하세요.",
+    "count": "8",
+    "question_0": "PACER는 다른 웨어러블 제품과 무엇이 다른가요?",
+    "answer_0": "• PACER는 누구나 전문가 수준의 운동능력분석을 활용할 수 있도록 만들어진 기기입니다.",
+    "question_1": "여러 사람이 함께 사용할 수 있나요?",
+    "answer_1": "• 아니요, PACER는 개인 사용을 목적으로 설계되었습니다. 분석 데이터관리 및 위생 관리 측면에서 잘 관리 될 수 있도록 타인과 제품을 공유하지 않는 것을 권장합니다.",
+    "question_2": "다른 제품이나 플랫폼과 통합되나요?",
+    "answer_2": "• PACER는 독립적으로 포괄적인 분석을 제공할 수 있습니다. 향후 활용도를 높이기 위하여 여타의 피트니스 서비스들과 연동하는 방안을 고려하고 있습니다.",
+    "question_3": "실내와 실외에서 모두 사용할 수 있나요?",
+    "answer_3": "• 네, 편의에 따라 실내와 실외 모두에서 사용할 수 있습니다.",
+    "question_4": "마스크가 호흡에 얼마나 방해가 되나요?",
+    "answer_4": "• PACER를 착용하였을 때 일상적인 호흡에 비해 저항감을 느낄 수 있습니다. 다만, 지난 수십년간 활용되어온 분석 마스크 대비 더 우수한 통기성을 제공함으로써 운동능력을 방해하지 않도록 설계되었습니다.",
+    "question_5": "다른 사이즈를 선택할 수 있나요?",
+    "answer_5": "• 현재는 한 가지 사이즈만 제공되며, 모든 사용자에게 완벽하게 맞지는 않을 수 있습니다. 향후 추가 사이즈를 도입할 예정입니다.",
+    "question_6": "센서는 주기적으로 교체나 유지보수가 필요한가요?",
+    "answer_6": "• 아니요, PACER의 센서는 교체할 필요가 없습니다.",
+    "question_7": "주기적으로 서비스가 필요한가요?",
+    "answer_7": "• 아니요, 정기적인 서비스는 필요하지 않습니다. 하드웨어는 1년 보증이 제공되며, 이 기간 내 합리적인 수리나 교체가 필요한 경우 지원해 드립니다."
   },
   "nav_text": {
     "nav_1": "WHY PACER",
@@ -15,7 +48,7 @@
     "international": "International"
   },
   "footer": {
-    "info" : "Neumafit\nCEO: Jinmo Kim\nAddress: 13th Floor, Front One, 122 Mapo-daero, Mapo-gu, Seoul, South Korea (Gongdeok-dong)\nBusiness Registration Number: 149-81-02184\nE-commerce Registration Number: 2022-Seoul-Gwanak-2176\nEmail: support@neumafit.com",
+    "info": "Neumafit\nCEO: Jinmo Kim\nAddress: 13th Floor, Front One, 122 Mapo-daero, Mapo-gu, Seoul, South Korea (Gongdeok-dong)\nBusiness Registration Number: 149-81-02184\nE-commerce Registration Number: 2022-Seoul-Gwanak-2176\nEmail: support@neumafit.com",
     "support": {
       "title": "Support",
       "faq": "FAQ",
@@ -45,7 +78,7 @@
     "title_3": "PACER doesn’t just measure,\nIt guides",
     "content_3": "Beyond delivering precise performance metrics, PACER provides tailored recommendations like marathon pacing strategies and personalized training protocols. Its easy-to-use design makes advanced insights accessible to everyone, turning complex data into actionable steps for smarter, more effective training.",
     "button_text_3": "HOW PACER HELPS",
-    "asset_3": "withUI3.png",
+    "asset_3": "withUI3_optimized.png",
     "title_4_desktop": "Ergonomic design meets\nAdvanced technology",
     "title_4_mobile": "Ergonomic design meets Advanced technology",
     "content_4": "PACER combines ergonomic design with advanced technology. Made from durable, body-safe materials, it fits comfortably and is easy to clean with waterproofing for any weather. Featuring cutting-edge sensors, it ensures unmatched accuracy and reliability.",
@@ -108,10 +141,10 @@
     "content_4": "To improve, you need to understand your strengths and weaknesses. PACER analyzes your metrics and classifies you into one of three runner types. This classification helps you focus on the areas that matter most, guiding you toward the training that will maximize your potential. With PACER, self-awareness becomes your greatest tool for progress."
   },
   "shop": {
-    "success" : {
-      "title" : "Your Purchase is Complete!",
+    "success": {
+      "title": "Your Purchase is Complete!",
       "subtitle": "Thank you for choosing PACER!\nYour order details and shipping updates will be sent to you shortly.",
-      "content" : "We hope you look forward to a new running experience with PACER!\nIf you have any questions, feel free to contact our support team at any time."
+      "content": "We hope you look forward to a new running experience with PACER!\nIf you have any questions, feel free to contact our support team at any time."
     },
     "promotion": "Limited Promotion 20% Off – The Best Price You’ll Ever See!",
     "step_1": {
@@ -181,7 +214,7 @@
     },
     "step_2": {
       "title": "ENTER INFO",
-      "verify_age" : "I am 14 years old or older.",
+      "verify_age": "I am 14 years old or older.",
       "email_verification": {
         "title": "Contact Information",
         "description": "Your purchase details will be sent to your email and phone number.\nPlease ensure the information is entered correctly, as incorrect details may make refunds or exchanges difficult.",
@@ -223,6 +256,7 @@
         "subtotal": "Subtotal",
         "shipping": "Shipping",
         "estimated_taxes": "Estimated taxes",
+        "discounts": "Discounts",
         "total": "Total",
         "currency": "KRW"
       }
